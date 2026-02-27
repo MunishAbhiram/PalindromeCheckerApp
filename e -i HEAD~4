@@ -1,0 +1,28 @@
+[33m9d72210[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m, [m[1;31morigin/feature/UC13[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mfeature/UC13[m[33m)[m UC13: Performance Comparison of Palindrome Checker
+[33m3b02c78[m[33m ([m[1;31morigin/feature/UC12[m[33m, [m[1;32mfeature/UC12[m[33m)[m UC12: Strategy pattern for palindrome checker
+[33mf093715[m[33m ([m[1;31morigin/feature/UC11[m[33m, [m[1;32mfeature/UC11[m[33m)[m UC11: Object Oriented Palindrome Checker
+[33m0fbb016[m[33m ([m[1;31morigin/feature/UC10[m[33m, [m[1;32mfeature/UC10[m[33m)[m UC10: Object Oriented Palindrome Checker
+[33m327b222[m[33m ([m[1;31morigin/feature/UC9[m[33m, [m[1;32mfeature/UC9[m[33m)[m UC9: Recursive Palindrome Checker
+[33mf2e5637[m Resolved merge conflict - kept UC8
+[33m41035bf[m[33m ([m[1;31morigin/feature/UC8[m[33m, [m[1;32mfeature/UC8[m[33m)[m UC8: Linked List Based Palindrome Checker
+[33m64a162c[m[33m ([m[1;31morigin/feature/UC7[m[33m, [m[1;32mfeature/UC7[m[33m)[m UC7: Dequeue Based Optimized Palindrome Check
+[33mb5a8fc9[m[33m ([m[1;31morigin/feature/UC6[m[33m)[m UC6: Queue+Stack based palindrome check
+[33ma0624aa[m[33m ([m[1;31morigin/feature/UC5[m[33m)[m UC5: Stack Based Palindrome Check
+[33m3c7b4d6[m[33m ([m[1;31morigin/feature/UC4[m[33m)[m UC4: Array Based Palindrome Checker
+[33m7467b55[m[33m ([m[1;31morigin/feature/UC3[m[33m, [m[1;32mfeature/UC3[m[33m)[m UC3: String Reverse Palindrome Check
+[33m25bc7f4[m Merge branch 'feature/UC1' into develop
+[33m53cd426[m[33m ([m[1;31morigin/feature/UC1[m[33m)[m UC1: Add welcome message module
+[33m2516ce4[m[33m ([m[1;31morigin/feature/UC2[m[33m)[m UC2: Hardcoded Palindrome
+[33m9747acc[m UC2: Hardcoded Palindrome
+[33m483c11f[m First commit
+[33m77a6037[m Merge branch 'feature/UC1' into develop
+[33m7547052[m UC1: Hardcoded Palindrome
+[33m50ff451[m UC7: Dequeue Based Optimized Palindrome Checker
+[33mc026f2e[m UC6: Queue+Stack Palindrome Checker
+[33mbd4d8a7[m UC4: Stack Palindrome Checker
+[33m67c2c0e[m Renamed UC1 to UseCase1PalindromeCheckerApp for consistency
+[33m3a75b74[m UC4 Character array based Palindrome
+[33m32e3cef[m Check palindrome using reverse
+[33m150fdea[m UC2:Hardcoded palindrome
+[33mfab13b8[m UC1: Add welcome message module
+[33m7ad1b09[m Base application setup
