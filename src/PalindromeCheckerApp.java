@@ -4,13 +4,28 @@ public class PalindromeCheckerApp {
 
         String input = "level";
 
-        PalindromeStrategy strategy = new StackStrategy();
-        PalindromeContext context = new PalindromeContext(strategy);
+        PalindromeStrategy stackStrategy = new StackStrategy();
+        PalindromeStrategy dequeStrategy = new DequeStrategy();
 
-        boolean result = context.check(input);
+        long start1 = System.nanoTime();
+        boolean result1 = stackStrategy.check(input);
+        long end1 = System.nanoTime();
+        long time1 = end1 - start1;
+
+        long start2 = System.nanoTime();
+        boolean result2 = dequeStrategy.check(input);
+        long end2 = System.nanoTime();
+        long time2 = end2 - start2;
 
         System.out.println("Input : " + input);
-        System.out.println("Is Palindrome? : " + result);
+
+        System.out.println("\nStack Strategy:");
+        System.out.println("Is Palindrome? : " + result1);
+        System.out.println("Execution Time: " + time1 + " ns");
+
+        System.out.println("\nDeque Strategy:");
+        System.out.println("Is Palindrome? : " + result2);
+        System.out.println("Execution Time: " + time2 + " ns");
     }
 }
 
@@ -55,18 +70,5 @@ class DequeStrategy implements PalindromeStrategy {
         }
 
         return true;
-    }
-}
-
-class PalindromeContext {
-
-    private PalindromeStrategy strategy;
-
-    public PalindromeContext(PalindromeStrategy strategy) {
-        this.strategy = strategy;
-    }
-
-    public boolean check(String input) {
-        return strategy.check(input);
     }
 }
